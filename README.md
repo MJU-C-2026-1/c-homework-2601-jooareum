@@ -52,8 +52,8 @@
     * **해결:** 현재 단계에서는 조건문(`if`)을 사용할 수 없으므로, 사용자(알바생)가 반드시 총액보다 큰 금액을 입력한다는 가정하에 진행함. 2차 과제에서 조건문을 배워 이 문제를 해결할 계획임.
      
 ### **📁 증빙 자료:**
-  * [1차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
-  * [1차과제_실행결과.jpg]
+  * [1차_AI협업캡처.pdf](https://github.com/user-attachments/files/26457512/1._AI.pdf)
+  * <img width="781" height="581" alt="1차과제_실행결과" src="https://github.com/user-attachments/assets/3c8b74ba-d6c3-4830-809f-0995ca0dbb42" />
 
 <br>
 
