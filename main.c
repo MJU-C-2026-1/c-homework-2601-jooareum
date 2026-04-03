@@ -21,16 +21,16 @@ int main()
 
   // 2. 입력 (scanf 사용)
   printf("1. 판매할 상품명 입력: ");
-  sacnf("%s", itemName);
+  scanf("%s", itemName);
 
   printf("2. 상품 단가 입력(원): ");
-  sacnf("%d", &price);
+  scanf("%d", &Price);
 
   printf("3. 판매 수량 입력(개): ");
   scanf("%d", &count);
 
   // 3. 산술 연산 (가격 * 수량)
-  total = price * count;
+  total = Price * count;
 
   // 4. 결과 출력
   printf("\n----------------------------------------------\n");
