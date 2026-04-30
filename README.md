@@ -96,7 +96,12 @@
      
 ### **📁 증빙 자료:**
   * [2차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  [2차 AI 협업 캡쳐.pdf](https://github.com/user-attachments/files/27248505/2.AI.pdf)
   * [2차과제_실행결과.jpg]
+  <img width="780" height="269" alt="스크린샷 2026-04-30 235816" src="https://github.com/user-attachments/assets/0815b3f1-d938-4fc6-81b4-3b132ae7b31f" />
+  <img width="798" height="212" alt="스크린샷 2026-04-30 235827" src="https://github.com/user-attachments/assets/4930e817-fe42-4403-9bcb-131cbb7415cc" />
+<img width="802" height="212" alt="스크린샷 2026-04-30 235840" src="https://github.com/user-attachments/assets/7bb32ab4-7610-4518-8c16-0db0fb305a31" />
+<img width="795" height="520" alt="스크린샷 2026-04-30 235854" src="https://github.com/user-attachments/assets/5416fd92-41be-4ab2-bf2a-ddb0ef840291" />
 <br>
 
 ## 🟨 [3차 과제: V3.0] 무한 루프와 메뉴 시스템 (반복문) - 향후 작성 예정
@@ -116,6 +121,8 @@
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
   * [3차과제_실행결과.jpg]
 <br>
+
+
 
 ### 🟥 [4차 과제: V4.0] 모듈화 및 데이터 확장 (배열과 함수) - 🌟최종 완성 -- 향후 작성 예정
 ### **✨4차 과제 업데이트 내용:**
