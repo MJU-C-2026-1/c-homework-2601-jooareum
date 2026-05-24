@@ -131,10 +131,7 @@
   * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
     [3차 AI 협업 캡쳐.pdf](https://github.com/user-attachments/files/28188990/3.AI.pdf)
   * [3차과제_실행결과.jpg]
-    <img width="1168" height="937" alt="스크린샷 2026-05-24 163143" src="https://github.com/user-attachments/assets/ae9b380f-5d4e-4019-bc00-195e922cead1" />
-    <img width="1188" height="1010" alt="스크린샷 2026-05-24 163156" src="https://github.com/user-attachments/assets/40925131-f051-4816-90aa-235cd8bf4f9f" />
-    <img width="1177" height="889" alt="스크린샷 2026-05-24 163218" src="https://github.com/user-attachments/assets/2b907d1a-9261-4592-b46d-b482d204325d" />
-    <img width="1169" height="962" alt="스크린샷 2026-05-24 163245" src="https://github.com/user-attachments/assets/1d53e42d-496d-4621-a9f5-94a3a670ffff" />
+    
 
 <br>
 
