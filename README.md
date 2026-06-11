@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1R97bbXI)
 # 💻 [2026-01] 나만의 C언어 소프트웨어 개발 프로젝트
 
 ## 1. 시나리오 제목
@@ -167,5 +166,10 @@
      
 ### **📁 증빙 자료:**
   * [4차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+    [4차 AI 협업 캡쳐.pdf](https://github.com/user-attachments/files/28856522/4.AI.pdf)
   * [4차과제_실행결과.jpg]
+    <img width="1131" height="873" alt="스크린샷 2026-06-12 060118" src="https://github.com/user-attachments/assets/5ec0913b-ab71-4fd7-82a0-cea5dec2e8ef" />
+    <img width="1127" height="873" alt="스크린샷 2026-06-12 060133" src="https://github.com/user-attachments/assets/a3374f3e-b3ad-4ebd-b58f-e2b2746165dc" />
+    <img width="1085" height="594" alt="스크린샷 2026-06-12 060153" src="https://github.com/user-attachments/assets/71416242-3a55-41ad-94a6-7512fa61e923" />
+
 <br>
