@@ -15,14 +15,34 @@ void showMenu();
 int processPayment(int itemType);
 void showSalesStatus();
 
+void showHistory(int *arr, int size)
+{
+  printf("\n========================================\n");
+  printf("   [최근 결제 내역 조회 (인덱스 순회)]  \n");
+  printf("========================================\n");
+  for(int i=0; i<size; i++)
+  {
+    if(arr[i] > 0)
+    {
+      printf(" > %d번째 전 결제 금액: %d원 \n", i + 1, arr[i]);
+    }
+    else
+    {
+      printf(" > %d번째 전 결제 금액: 데이터 없음\n", i + 1);
+    }
+  }
+  printf("========================================\n");
+}   
+
 int main()
 {
-	
   int menuChoice;
   int itemType;
   int paymentResult;
 
-  printf("========= GS25 편의점 POS 시스템 V3.0 =========\n");
+  int paymentHistory[5] = {0, 0, 0, 0, 0};
+
+  printf("========= GS25 편의점 POS 시스템 V4.0 =========\n");
   printf("신입 알바생님, 환영합니다! 계산을 시작합니다.\n\n");
 
   // 무한 루프 시작
@@ -36,7 +56,7 @@ int main()
     if(menuChoice == 1)
     {
       printf("\n[상품 결제 및 입력 진입]\n");
-      printf("1. 상품 카테고리(1: 도시락, 2: 주류, 3: 일반):");
+      printf("1. 상품 카테고리(1: 도시락, 2: 주류, 3: 일반): ");
       scanf("%d", &itemType);
 
       // 결제 처리 함수 호출
@@ -45,6 +65,13 @@ int main()
       if(paymentResult > 0)
       {
         printf("\n=> 정상적으로 결제가 완료되어 메인 메뉴로 돌아갑니다. \n");
+
+        int *ptr = paymentHistory;
+        for(int i = 4; i>0; i--)
+        {
+          *(ptr + i) = *(ptr + (i - 1));
+        }
+        *ptr = paymentResult;
       }
       else
       {
@@ -57,6 +84,10 @@ int main()
       showSalesStatus();
     }
     else if(menuChoice == 3)
+    {
+      showHistory(paymentHistory, 5);
+    }
+    else if(menuChoice == 4)
     {
       // 프로그램 종료
       printf("\n==============================================\n");
@@ -81,7 +112,8 @@ void showMenu()
   printf("-------------------------------\n");
   printf(" 1. 상품 입력 및 결제\n");
   printf(" 2. 당일 누적 매출 조회\n");
-  printf(" 3. 영업 마감 및 시스템 종료\n");
+  printf(" 3. 최근 결제 내역 분석 \n");
+  printf(" 4. 영업 마감 및 시스템 종료\n");
   printf("-------------------------------\n");
 }
 
